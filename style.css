@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+
+:root {
+  --primary: #11CC7B;
+  --secondary: #9911CC;
+  --light: #2EFF2E;
+  --dark: #59997D;
+  --primary-font: "Montserrat";
+  --secondary-font: "Raleway";
+}
+
+html, body {
+    margin:  0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: var(--secondary);
+    overflow: auto;
+    margin: none;
+}
+
+nav a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: var(--primary-font);
+}
+
+nav a {
+    float: none;
+    display: block;
+}
+
+nav a:hover {
+    background-color: var(--dark);
+}
+
+.active {
+    background-color: var(--primary);
+}
